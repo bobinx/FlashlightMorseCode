@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_appversion"
+        android:title="App"
+        android:icon="@drawable/ic_action_icon"
+        app:showAsAction="always"
+        android:layout_gravity="left" />
+
+    <item
+        android:id="@+id/action_close"
+        android:title="Close"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_help"
+        android:title="Help"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_contact"
+        android:title="Contact Us"
+        app:showAsAction="ifRoom" />
+
+</menu>
